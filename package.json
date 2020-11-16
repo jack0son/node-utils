@@ -1,5 +1,5 @@
 {
-  "name": "utils",
+  "name": "node-utils",
   "version": "0.1.0",
   "description": "Common node utility functions.",
   "main": "lib/index.js",
@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/jack0son/node-utils/issues"
   },
-  "homepage": "https://github.com/jack0son/node-utils#readme"
+  "homepage": "https://github.com/jack0son/node-utils#readme",
+  "dependencies": {
+    "deepmerge": "^4.2.2"
+  }
 }
